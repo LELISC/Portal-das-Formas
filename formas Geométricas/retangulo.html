@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule a Área do retângulo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+       <h2>calcule do retângulo</h2>
+
+       <form action="">
+        <input type="number" placeholder="digite a base do retângulo" id="base">
+        <input type="number" placeholder="digite a altura do retângulo" id="altura">
+       </form>
+
+
+
+  <div class="calcular">
+    
+   <input type="button" value="Submit" id="botao">
+
+  </div>     
+
+
+  <div><h3 id="resultado"></h3></div>
+    
+       
+</body>
+
+<Script>
+    
+      document.querySelector("#botao").addEventListener("click",(e)=> {
+
+
+    e.preventDefault()
+    var base = document.getElementById("base").value
+    var altura = document.getElementById("altura").value
+    var resultado = base * altura
+
+document.querySelector("#resultado").innerHTML = `a área do retângulo  é ${resultado}`
+    
+
+      })
+
+   
+</Script>
+
+
+
+</html>

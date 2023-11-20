@@ -1,0 +1,58 @@
+body{
+
+    background-color: aqua;
+}
+#inicial:hover{
+
+    color: white;
+    cursor: pointer;
+    
+}
+h1{
+
+    margin: 50px;
+    padding-left: 430px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+       
+}
+#imagemPrincipal{
+
+    padding-left: 560px;
+    width: 200px;
+    cursor: pointer;
+
+}
+h2{
+
+    font: medium;
+    margin: 50px;
+    padding-left: 480px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Botoes button{
+
+    color: white;
+    background-color: blue;
+    border-radius: 22px;
+    margin-left: 35px;
+    cursor: pointer;
+    padding: 22px;
+    margin: 22px;
+    margin-right: 60px;
+    align-items: center;
+    
+
+    
+}
+.Botoes button:hover{
+
+    color: black;
+    background-color: white;
+}
+#botaop{
+
+    color: greenyellow;
+}
